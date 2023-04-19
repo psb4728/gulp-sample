@@ -1,0 +1,39 @@
+{
+  "name": "supergulp",
+  "version": "1.0.0",
+  "description": "Learn Gulp by building an awesome development environment",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "type": "module",
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/register": "^7.21.0",
+    "babelify": "^10.0.0",
+    "del": "^4.1.1",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-bro": "^2.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-html": "^6.0.0",
+    "gulp-html-extend": "^1.1.6",
+    "gulp-image": "^6.3.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-webserver": "^0.9.1",
+    "uglifyify": "^5.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0",
+    "sass": "^1.62.0"
+  }
+}
